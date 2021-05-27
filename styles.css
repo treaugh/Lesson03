@@ -1,0 +1,73 @@
+/* Global styles
+-----------------------------------------------------------*/
+body {
+    color: coral;
+    font-size: 20px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    background-color:darkseagreen;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgba(47, 48, 97, 80%);
+}
+
+
+/* Profile
+-----------------------------------------------------------*/
+header {
+    background-color: rgb(235, 235, 151);
+    padding: 100px;
+    margin: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+/* Projects
+-----------------------------------------------------------*/
+.projects {
+    background: rgb(197, 230, 241);
+    padding: 20px 60px;
+}
+
+
+
+/* Education
+-----------------------------------------------------------*/
+.education {
+    padding-bottom: 20px;
+}
+
+
+
+/* Contact info
+-----------------------------------------------------------*/
+footer {
+    background-color: rgb(221, 220, 220);
+    padding: 20px 60px 20px;
+}
+
+
+
+
+
+
