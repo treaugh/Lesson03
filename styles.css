@@ -2,11 +2,11 @@
 -----------------------------------------------------------*/
 body {
     color: coral;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-}
-
-h2 {
-    color: darkgreen;
+    line-height: 1.5;
 }
 
 img {
@@ -19,6 +19,7 @@ a {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 a:hover {
@@ -26,19 +27,34 @@ a:hover {
     background-color: rgba(47, 48, 97, 80%);
 }
 
+h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
 
 /* Profile
 -----------------------------------------------------------*/
 header {
-    background-color: rgb(235, 235, 151);
-    padding: 100px;
-    margin: 15px;
-}
-
-h1 {
-    color: white;
-    font-size: 60px;
-    text-align: center;
+    background-color: rgb(235, 235, 151);   
 }
 
 
@@ -46,10 +62,15 @@ h1 {
 -----------------------------------------------------------*/
 .projects {
     background: rgb(197, 230, 241);
-    padding: 20px 60px;
 }
 
+/* I did not change my selector a and a:hover to .projects .btn and .projects .btn:hover because I did not have extra details in my paragraphs or work experience. When I applied it to my CSS it only applied the button to the project section. I figured it would be easier to keep the selector as 'a' for now besides making an .education .btn selector etc. (I hope this makes sense.) 
 
+.projects .btn {}
+
+.projects .btn:hover{}
+
+**************************************************************************************************************************************************/
 
 /* Education
 -----------------------------------------------------------*/
@@ -58,16 +79,9 @@ h1 {
 }
 
 
-
 /* Contact info
 -----------------------------------------------------------*/
 footer {
     background-color: rgb(221, 220, 220);
-    padding: 20px 60px 20px;
 }
-
-
-
-
-
 
